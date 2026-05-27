@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+
+  background-color: rebeccapurple;
+}
+
+
+#btn {
+  background-color: white;
+  color: rebeccapurple;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(17, 90, 29);
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+}
