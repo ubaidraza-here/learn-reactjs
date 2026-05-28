@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+html,
+body {
+
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+
+}
+
+.parent {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 330px;
+  width: 280px;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.top img {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 3px;
+}
+
+.top button {
+  background-color: transparent;
+  color: #111;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 3px;
+}
+
+.center h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.center h3 span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #777;
+}
+
+.center h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.center .tags {
+  display: flex;
+  gap: 5px;
+
+}
+
+.center .tags h4 {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #dadada;
+  border-radius: 10px;
+  padding: 2px 8px;
+  margin-top: 10px;
+
+
+
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #b1b1b1;
+  padding-top: 15px;
+}
+
+.bottom h3 {
+  font-size: 18px;
+  font-weight: 550;
+
+}
+
+.bottom p {
+  font-size: 10px;
+  font-weight: 400;
+  color: #777;
+
+}
+
+.bottom button {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  padding: 5px 8px;
+  cursor: pointer;
+
+}
